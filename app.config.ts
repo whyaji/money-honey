@@ -4,7 +4,7 @@ export default (): ExpoConfig => {
     return {
         name: 'Money Honey',
         slug: 'whyajimoneyhoney',
-        version: '1.0.0',
+        version: '0.0.1',
         orientation: 'portrait',
         icon: './assets/images/icon.png',
         scheme: 'whyajimoneyhoney',
@@ -29,7 +29,7 @@ export default (): ExpoConfig => {
                 backgroundColor: '#ffffff',
             },
             package: 'com.whyaji.whyajimoneyhoney',
-            runtimeVersion: '1.3.0',
+            runtimeVersion: '0.0.1',
         },
         web: {
             bundler: 'metro',
