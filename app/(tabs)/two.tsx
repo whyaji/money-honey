@@ -44,7 +44,7 @@ export default function TabTwoScreen() {
     return (
         <View flex={1} alignItems="center" justifyContent="center" bg="$background">
             <Text fontSize={20} color="$blue10">
-                Tab Two
+                {'Tab Two (Check for updates)'}
             </Text>
             {isDevelopment ? (
                 <>
